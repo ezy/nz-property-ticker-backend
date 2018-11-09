@@ -1,0 +1,31 @@
+{
+  "name": "nzproperty-scrape",
+  "version": "1.0.0",
+  "description": "api and scraper for nzproperty",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pfrt/nzproperty-scrape.git"
+  },
+  "author": "Mohd Arif Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pfrt/nzproperty-scrape/issues"
+  },
+  "homepage": "https://gitlab.com/pfrt/nzproperty-scrape#readme",
+  "dependencies": {
+    "agenda": "^2.0.2",
+    "aws-sdk": "^2.335.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "fast-csv": "^2.4.1",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.7",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
